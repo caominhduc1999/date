@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Food Selection</title>
+  <link rel="stylesheet" href="css/food.css" />
+</head>
+
+<body>
+  <div id="foodquestion">
+    <b>Em muốn ăn món gì?</b>
+  </div>
+
+  <form method="POST" action="process_food.php">
+    <div class="food-selection">
+      <div class="food-item">
+        <img src="food/burgers.jpeg" alt="hamburger_va_ga_ran" />
+        <label><input type="checkbox" name="food[]" value="hamburger_va_ga_ran" />
+          Hamburger và gà rán</label>
+      </div>
+      <div class="food-item">
+        <img src="food/dog.jpeg" alt="dog" />
+        <label><input type="checkbox" name="food[]" value="chuc_chich" /> Chúc chích</label>
+      </div>
+      <div class="food-item">
+        <img src="food/koreanfood.jpeg" alt="koreanfood" />
+        <label><input type="checkbox" name="food[]" value="do_han_quoc" /> Đồ Hàn quốc</label>
+      </div>
+      <div class="food-item">
+        <img src="food/pasta.jpeg" alt="pasta" />
+        <label><input type="checkbox" name="food[]" value="mi_y" /> Mì ý</label>
+      </div>
+      <div class="food-item">
+        <img src="food/pizza.jpeg" alt="pizza" />
+        <label><input type="checkbox" name="food[]" value="pizza" /> Pizza</label>
+      </div>
+      <div class="food-item">
+        <img src="food/salad.jpeg" alt="salad" />
+        <label><input type="checkbox" name="food[]" value="salad" /> Salad</label>
+      </div>
+      <div class="food-item">
+        <img src="food/steak.jpeg" alt="steak" />
+        <label><input type="checkbox" name="food[]" value="bit_tet" /> Bít tết</label>
+      </div>
+      <div class="food-item">
+        <img src="food/sushi.jpeg" alt="sushi" />
+        <label><input type="checkbox" name="food[]" value="sushi" /> Sushi</label>
+      </div>
+    </div>
+    <button class="button" type="submit">
+      Tiếp UWU
+    </button>
+  </form>
+</body>
+
+</html>
