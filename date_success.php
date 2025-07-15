@@ -39,14 +39,14 @@
 </head>
 <body>
     <div class="success-container">
-        <h1>🎉 Cảm ơn em!</h1>
+        <h1>🎉 Thank you!</h1>
         <div class="success-message">
-            <h2>Đã lưu thông tin hẹn của em rồi!</h2>
-            <p><strong>Ngày:</strong> <?php echo htmlspecialchars($_GET['date'] ?? 'N/A'); ?></p>
-            <p><strong>Giờ:</strong> <?php echo htmlspecialchars($_GET['time'] ?? 'N/A'); ?></p>
-            <p><strong>Địa điểm đón:</strong> <?php echo htmlspecialchars($_GET['location'] ?? 'N/A'); ?></p>
+            <h2>Your date has been saved!</h2>
+            <p><strong>Date:</strong> <?php echo htmlspecialchars($_GET['date'] ?? 'N/A'); ?></p>
+            <p><strong>Time:</strong> <?php echo htmlspecialchars($_GET['time'] ?? 'N/A'); ?></p>
+            <p><strong>Location:</strong> <?php echo htmlspecialchars($_GET['location'] ?? 'N/A'); ?></p>
         </div>
-        <a href="food.html" class="continue-btn">Tiếp tục chọn món ăn →</a>
+        <a href="food.html" class="continue-btn">Continue to choose a meal →</a>
     </div>
 </body>
 </html> 

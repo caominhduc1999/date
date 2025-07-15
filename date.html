@@ -9,26 +9,26 @@
 </head>
 
 <body>
-  <h1 title="choose a date">Em rảnh vào hôm nào ...</h1>
+  <h1 title="choose a date">When are you free ?</h1>
   <form class="form-group" method="POST" action="process_date.php">
     <div class="form-row">
-      <label>Ngày nào: (chọn 1 ngày nhé)</label>
+      <label>Pick a day:</label>
       <input type="date" name="selected_date" required />
     </div>
 
     <div class="form-row">
-      <label>Giờ nào: (chọn giờ nhé)</label>
+      <label>Pick a time:</label>
       <input type="time" name="selected_time" required />
     </div>
 
     <div class="form-row">
-      <label>Địa điểm đón: (nhập địa chỉ nhé)</label>
-      <input type="text" name="pickup_location" placeholder="Ví dụ: 123 Đường ABC, Quận 1, TP.HCM" required />
+      <label>Pickup location:</label>
+      <input type="text" name="pickup_location" placeholder="Example: 123 ABC Street" required />
     </div>
 
     <div>
       <button class="button" type="submit">
-        Tiếp
+        Next
       </button>
     </div>
   </form>
